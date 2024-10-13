@@ -98,7 +98,7 @@ nav ul li a:hover {
       rgba(255, 246, 229, 0.816),
       rgba(255, 211, 182, 0.696)
     ),
-    url("/images/bgImg.webp") center/cover no-repeat fixed;
+    url("/public/images/bgImg.webp") center/cover no-repeat fixed;
   overflow: hidden;
 }
 
@@ -168,7 +168,7 @@ nav ul li a:hover {
 .sitar {
   width: 60%;
   height: 60%;
-  background-image: url("/images/sitar.webp");
+  background-image: url("/public/images/sitar.webp");
   top: 10%;
   left: 0;
 }
@@ -176,7 +176,7 @@ nav ul li a:hover {
 .tabla {
   width: 40%;
   height: 40%;
-  background-image: url("/images/tabala.webp");
+  background-image: url("/public/images/tabala.webp");
   bottom: 25%;
   right: 25%;
 }
@@ -184,7 +184,7 @@ nav ul li a:hover {
 .flute {
   width: 50%;
   height: 30%;
-  background-image: url("/images/flute.webp");
+  background-image: url("/public/images/flute.webp");
   top: 60%;
   right: 5%;
 }
@@ -271,16 +271,16 @@ nav ul li a:hover {
 }
 
 .vocal {
-  background-image: url("/images/carnaticVocals.webp");
+  background-image: url("/public/images/carnaticVocals.webp");
 }
 .veena {
-  background-image: url("/images/veena.webp");
+  background-image: url("/public/images/veena.webp");
 }
 .mridangam {
-  background-image: url("/images/mridangam.webp");
+  background-image: url("/public/images/mridangam.webp");
 }
 .violin {
-  background-image: url("/images/violin.webp");
+  background-image: url("/public/images/violin.webp");
 }
 
 .course-card h3 {
@@ -401,13 +401,13 @@ footer {
 }
 
 .facebook {
-  background-image: url("/svgs/facebook.svg");
+  background-image: url("/public/svgs/facebook.svg");
 }
 .instagram {
-  background-image: url("/svgs/instagram.svg");
+  background-image: url("/public/svgs/instagram.svg");
 }
 .youtube {
-  background-image: url("/svgs/youtube.svg");
+  background-image: url("/public/svgs/youtube.svg");
 }
 
 .copyright {
