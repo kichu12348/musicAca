@@ -113,6 +113,16 @@ nav ul li a:hover {
   z-index: 1;
 }
 
+
+@supports (-webkit-touch-callout: none) {
+  .hero {
+    background-attachment: scroll;
+  }
+  .hero::before {
+    background-attachment: scroll;
+  }
+}
+
 .hero-content {
   max-width: 50%;
   position: relative;
